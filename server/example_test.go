@@ -11,7 +11,7 @@ var done = make(chan struct{})
 
 type exampleHandler struct{}
 
-func (handler *exampleHandler) Serve(conn net.Conn, s stream.Stream) {
+func (handler *exampleHandler) ServeMQTT(conn net.Conn, s stream.Stream) {
 	defer func() {
 		log.Println(conn.RemoteAddr(), "CLOSED")
 		s.Close()

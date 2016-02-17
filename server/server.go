@@ -9,7 +9,7 @@ import (
 
 // MQTTHandler will receive new connections as streams.
 type MQTTHandler interface {
-	Serve(net.Conn, stream.Stream)
+	ServeMQTT(net.Conn, stream.Stream)
 }
 
 // Server manages multiple Configurations and yields new connection as
@@ -42,7 +42,7 @@ func (s *Server) ListenAndServe(address string) error {
 				log.Println(err)
 				return
 			}
-			go s.handler.Serve(conn, stream.NewNetStream(conn))
+			go s.handler.ServeMQTT(conn, stream.NewNetStream(conn))
 		}
 	}()
 
