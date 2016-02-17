@@ -1,21 +1,7 @@
-// Copyright (c) 2014 The gomqtt Authors. All rights reserved.
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-
 package server
 
 import (
-	"fmt"
+	"log"
 	"net"
 
 	"github.com/gomqtt/stream"
@@ -23,20 +9,24 @@ import (
 
 var done = make(chan struct{})
 
-type ExampleHandler struct{}
+type exampleHandler struct{}
 
-func (handler *ExampleHandler) ServeMQTT(info *ConnInfo, s stream.Stream) {
-	fmt.Println("new connection")
-
-	close(done)
+func (handler *exampleHandler) Serve(conn net.Conn, s stream.Stream) {
+	defer func() {
+		log.Println(conn.RemoteAddr(), "CLOSED")
+		s.Close()
+		close(done)
+	}()
+	log.Println(conn.RemoteAddr(), "CONNECTED")
 }
 
 func ExampleServer() {
 
-	server := NewServer(&ExampleHandler{})
-
-	server.LaunchTCPConfiguration("localhost:1337")
-	server.LaunchWSConfiguration("localhost:1338")
+	server := NewServer(&exampleHandler{})
+	if err := server.ListenAndServe("localhost:1337"); err != nil {
+		log.Println(err)
+		return
+	}
 
 	c, _ := net.Dial("tcp", "localhost:1337")
 	c.Close()
@@ -45,5 +35,6 @@ func ExampleServer() {
 	server.Stop()
 
 	// Output:
-	// new connection
+	// remote addr CONNECTED
+	// remote addr CLOSE
 }
