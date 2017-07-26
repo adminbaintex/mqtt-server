@@ -1,0 +1,25 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "Sl7Z91vb9PLQ6c0AI0wo+OytbQw=",
+			"path": "git.baintex.com/sentio/gomqtt/packet",
+			"revision": "cd84e6921e693d33619722f2a8fd88f2dbf30542",
+			"revisionTime": "2017-07-26T11:21:27Z"
+		},
+		{
+			"checksumSHA1": "aHSyHCICHQV5VaFch+12FcB7+YA=",
+			"path": "git.baintex.com/sentio/gomqtt/stream",
+			"revision": "cd84e6921e693d33619722f2a8fd88f2dbf30542",
+			"revisionTime": "2017-07-26T11:21:27Z"
+		},
+		{
+			"checksumSHA1": "8KawKW6FJguwWz5cPvMg/ChmepE=",
+			"path": "github.com/gorilla/websocket",
+			"revision": "a69d9f6de432e2c6b296a947d8a5ee88f68522cf",
+			"revisionTime": "2017-07-18T20:23:41Z"
+		}
+	],
+	"rootPath": "git.baintex.com/sentio/mqtt-server"
+}

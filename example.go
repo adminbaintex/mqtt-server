@@ -4,8 +4,8 @@ import (
 	"log"
 	"net"
 
-	"github.com/escrichov/mqtt-server/server"
-	"github.com/gomqtt/stream"
+	"git.baintex.com/sentio/mqtt-server/server"
+	"git.baintex.com/sentio/gomqtt/stream"
 )
 
 var done = make(chan struct{})

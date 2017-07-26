@@ -4,7 +4,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/gomqtt/stream"
+	"git.baintex.com/sentio/gomqtt/stream"
 )
 
 // MQTTHandler will receive new connections as streams.
