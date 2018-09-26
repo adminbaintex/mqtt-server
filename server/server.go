@@ -5,6 +5,7 @@ import (
 	"net"
 
 	"git.baintex.com/sentio/gomqtt/stream"
+	"github.com/armon/go-proxyproto"
 )
 
 // MQTTHandler will receive new connections as streams.
@@ -20,11 +21,14 @@ type Server struct {
 
 	// The currently running configurations.
 	listener net.Listener
+
+	// Use Proxy protocol
+	ProxyProcotol bool
 }
 
 // NewServer returns a new Server.
-func NewServer(handler MQTTHandler) *Server {
-	return &Server{handler: handler}
+func NewServer(handler MQTTHandler, proxyProcotol bool) *Server {
+	return &Server{handler: handler, ProxyProcotol: proxyProcotol}
 }
 
 // ListenAndServe will run a simple TCP server.
@@ -33,7 +37,13 @@ func (s *Server) ListenAndServe(address string) error {
 	if err != nil {
 		return err
 	}
-	s.listener = l
+
+	if s.ProxyProcotol {
+		// Wrap listener in a proxyproto listener
+		s.listener = &proxyproto.Listener{Listener: l}
+	} else {
+		s.listener = l
+	}
 
 	go func() {
 		for {
