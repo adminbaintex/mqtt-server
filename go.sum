@@ -4,6 +4,8 @@ github.com/adminbaintex/gomqtt v0.0.0-20220126154157-1aa3eea889bd h1:20npK4jDgen
 github.com/adminbaintex/gomqtt v0.0.0-20220126154157-1aa3eea889bd/go.mod h1:Nqkgydu1KwCHQcfFV1SMhezyCufsDCf0DEYdthZfvDA=
 github.com/adminbaintex/gomqtt v0.0.0-20220126160352-1e25bc81c75f h1:7/Fy1GMztneZ0Z1pYB6fbd2/Q2FfICL72aqFsxIfsz8=
 github.com/adminbaintex/gomqtt v0.0.0-20220126160352-1e25bc81c75f/go.mod h1:CT+g2I7e/QKxBK1KuJgLf4J/nr6F2/Vwp4mjjcKcQ3k=
+github.com/adminbaintex/gomqtt v0.0.0-20220126162001-8d1999e41ea5 h1:85c4wfGSROfBbhaM6STYva2PWIJ1gZ1QQAOLNqCWYfI=
+github.com/adminbaintex/gomqtt v0.0.0-20220126162001-8d1999e41ea5/go.mod h1:Nqkgydu1KwCHQcfFV1SMhezyCufsDCf0DEYdthZfvDA=
 github.com/armon/go-proxyproto v0.0.0-20180202201750-5b7edb60ff5f h1:SaJ6yqg936TshyeFZqQE+N+9hYkIeL9AMr7S4voCl10=
 github.com/armon/go-proxyproto v0.0.0-20180202201750-5b7edb60ff5f/go.mod h1:QmP9hvJ91BbJmGVGSbutW19IC0Q9phDCLGaomwTJbgU=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
