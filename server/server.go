@@ -4,7 +4,7 @@ import (
 	"log"
 	"net"
 
-	"git.baintex.com/sentio/gomqtt/stream"
+	"github.com/adminbaintex/gomqtt/stream"
 	"github.com/armon/go-proxyproto"
 )
 

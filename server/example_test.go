@@ -4,7 +4,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/gomqtt/stream"
+	"github.com/adminbaintex/gomqtt/stream"
 )
 
 var done = make(chan struct{})

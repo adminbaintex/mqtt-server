@@ -8,9 +8,9 @@ Installation
 Get it using go's standard toolset:
 
 ```bash
-mkdir -p $GOPATH/src/git.baintex.com/sentio
-mv mqtt-server $GOPATH/src/git.baintex.com/sentio
-# import "git.baintex.com/sentio/mqtt-server/server"
+mkdir -p $GOPATH/src/github.com/adminbaintex
+mv mqtt-server $GOPATH/src/github.com/adminbaintex
+# import "github.com/adminbaintex/mqtt-server/server"
 ```
 
 
