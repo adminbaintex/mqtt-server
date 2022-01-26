@@ -22,7 +22,7 @@ func (handler *exampleHandler) ServeMQTT(conn net.Conn, s stream.Stream) {
 
 func ExampleServer() {
 
-	server := NewServer(&exampleHandler{})
+	server := NewServer(&exampleHandler{}, false)
 	if err := server.ListenAndServe("localhost:1337"); err != nil {
 		log.Println(err)
 		return
