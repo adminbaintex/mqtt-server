@@ -47,7 +47,7 @@ func (s *Server) ListenAndServe(address string) error {
 
 	go func() {
 		for {
-			conn, err := l.Accept()
+			conn, err := s.listener.Accept()
 			if err != nil {
 				log.Println(err)
 				return
