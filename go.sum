@@ -1,5 +1,7 @@
 github.com/adminbaintex/gomqtt v0.0.0-20220126094044-7ce5d2a527f8 h1:VSpTb2+YWUvTGjJy6OB9hkyC1rI/nivSWloKRzqdr/Y=
 github.com/adminbaintex/gomqtt v0.0.0-20220126094044-7ce5d2a527f8/go.mod h1:RNjBX5vFf78VJ+g//sLgIcBq5R/O5llMImwjTb0gIJQ=
+github.com/armon/go-proxyproto v0.0.0-20180202201750-5b7edb60ff5f h1:SaJ6yqg936TshyeFZqQE+N+9hYkIeL9AMr7S4voCl10=
+github.com/armon/go-proxyproto v0.0.0-20180202201750-5b7edb60ff5f/go.mod h1:QmP9hvJ91BbJmGVGSbutW19IC0Q9phDCLGaomwTJbgU=
 github.com/armon/go-proxyproto v0.0.0-20210323213023-7e956b284f0a h1:AP/vsCIvJZ129pdm9Ek7bH7yutN3hByqsMoNrWAxRQc=
 github.com/armon/go-proxyproto v0.0.0-20210323213023-7e956b284f0a/go.mod h1:QmP9hvJ91BbJmGVGSbutW19IC0Q9phDCLGaomwTJbgU=
 github.com/gorilla/websocket v1.4.2 h1:+/TMaTYc4QFitKJxsQ7Yye35DkWvkdLcvGKqM+x0Ufc=

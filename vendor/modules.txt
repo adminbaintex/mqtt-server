@@ -2,7 +2,7 @@
 ## explicit
 github.com/adminbaintex/gomqtt/packet
 github.com/adminbaintex/gomqtt/stream
-# github.com/armon/go-proxyproto v0.0.0-20210323213023-7e956b284f0a
+# github.com/armon/go-proxyproto v0.0.0-20180202201750-5b7edb60ff5f
 ## explicit
 github.com/armon/go-proxyproto
 # github.com/gorilla/websocket v1.4.2
