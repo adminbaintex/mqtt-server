@@ -2,12 +2,16 @@ github.com/adminbaintex/gomqtt v0.0.0-20220126094044-7ce5d2a527f8 h1:VSpTb2+YWUv
 github.com/adminbaintex/gomqtt v0.0.0-20220126094044-7ce5d2a527f8/go.mod h1:RNjBX5vFf78VJ+g//sLgIcBq5R/O5llMImwjTb0gIJQ=
 github.com/adminbaintex/gomqtt v0.0.0-20220126154157-1aa3eea889bd h1:20npK4jDgenPC7TmTpvyRakAeMeSf5BYlatfRf8jcV0=
 github.com/adminbaintex/gomqtt v0.0.0-20220126154157-1aa3eea889bd/go.mod h1:Nqkgydu1KwCHQcfFV1SMhezyCufsDCf0DEYdthZfvDA=
+github.com/adminbaintex/gomqtt v0.0.0-20220126160352-1e25bc81c75f h1:7/Fy1GMztneZ0Z1pYB6fbd2/Q2FfICL72aqFsxIfsz8=
+github.com/adminbaintex/gomqtt v0.0.0-20220126160352-1e25bc81c75f/go.mod h1:CT+g2I7e/QKxBK1KuJgLf4J/nr6F2/Vwp4mjjcKcQ3k=
 github.com/armon/go-proxyproto v0.0.0-20180202201750-5b7edb60ff5f h1:SaJ6yqg936TshyeFZqQE+N+9hYkIeL9AMr7S4voCl10=
 github.com/armon/go-proxyproto v0.0.0-20180202201750-5b7edb60ff5f/go.mod h1:QmP9hvJ91BbJmGVGSbutW19IC0Q9phDCLGaomwTJbgU=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/gorilla/websocket v0.0.0-20151216051058-3986be78bf85 h1:SevoKCPTzyy/YSrISy+yMC7rLAkTVSS5gnBGymBikz4=
 github.com/gorilla/websocket v0.0.0-20151216051058-3986be78bf85/go.mod h1:E7qHFY5m1UJ88s3WnNqhKjPHQ0heANvMoAMk2YaljkQ=
+github.com/gorilla/websocket v0.0.0-20170718202341-a69d9f6de432 h1:vtP1PA6IcEyr6fLKRODvfrmEakMZD0o4GTMdb30MoYQ=
+github.com/gorilla/websocket v0.0.0-20170718202341-a69d9f6de432/go.mod h1:E7qHFY5m1UJ88s3WnNqhKjPHQ0heANvMoAMk2YaljkQ=
 github.com/gorilla/websocket v1.4.2 h1:+/TMaTYc4QFitKJxsQ7Yye35DkWvkdLcvGKqM+x0Ufc=
 github.com/gorilla/websocket v1.4.2/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/adAjf1fMHhE=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=

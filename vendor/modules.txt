@@ -1,11 +1,11 @@
-# github.com/adminbaintex/gomqtt v0.0.0-20220126154157-1aa3eea889bd
+# github.com/adminbaintex/gomqtt v0.0.0-20220126160352-1e25bc81c75f
 ## explicit; go 1.17
 github.com/adminbaintex/gomqtt/packet
 github.com/adminbaintex/gomqtt/stream
 # github.com/armon/go-proxyproto v0.0.0-20180202201750-5b7edb60ff5f
 ## explicit
 github.com/armon/go-proxyproto
-# github.com/gorilla/websocket v0.0.0-20151216051058-3986be78bf85
+# github.com/gorilla/websocket v0.0.0-20170718202341-a69d9f6de432
 ## explicit
 github.com/gorilla/websocket
 # github.com/stretchr/testify v1.7.0
